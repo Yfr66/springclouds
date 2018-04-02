@@ -1,0 +1,16 @@
+#zuul是一个网关，可以实现过滤功能，需要在程序入口加入EnableZuulProxy.并注册到注册中心
+server:
+  port: 7997
+spring:
+  application:
+    name: zuul-gate
+#注册服务到注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7999/eureka/
+#配置请求头到某个服务下
+zuul:
+  routes:
+    user-server: /userServer/**  #这个表示将UserServer下的所有请求指向user-server
+

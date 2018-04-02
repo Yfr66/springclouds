@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../springclouds/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springclouds/eureka-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springclouds/feign-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springclouds/user-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springclouds/zuul-gate" charset="UTF-8" />
+  </component>
+</project>

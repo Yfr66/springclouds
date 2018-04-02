@@ -1,0 +1,13 @@
+##服务调用的入口
+server:
+  port: 7998
+spring:
+  application:
+    name: feign-consumer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7999/eureka/ #注册服务到注册中心
+feign:
+  hystrix:
+    enable: true #开启断路保护
